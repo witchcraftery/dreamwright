@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="Dreamwright — your day, returned to you as myth. A third-person dream practice for agents.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c1f21"/>
+      <stop offset="1" stop-color="#131516"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f7b450" stop-opacity="0.55"/>
+      <stop offset="0.45" stop-color="#f7b450" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#f7b450" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- stars -->
+  <g fill="#F5F2EB">
+    <circle cx="120" cy="80"  r="1.6" opacity="0.35"/>
+    <circle cx="260" cy="150" r="1.1" opacity="0.22"/>
+    <circle cx="410" cy="60"  r="1.4" opacity="0.30"/>
+    <circle cx="560" cy="110" r="1.0" opacity="0.18"/>
+    <circle cx="700" cy="52"  r="1.5" opacity="0.28"/>
+    <circle cx="840" cy="90"  r="1.2" opacity="0.20"/>
+    <circle cx="1010" cy="70" r="1.4" opacity="0.30"/>
+    <circle cx="1150" cy="120" r="1.2" opacity="0.22"/>
+    <circle cx="1220" cy="60" r="1.6" opacity="0.34"/>
+    <circle cx="180" cy="260" r="1.1" opacity="0.18"/>
+    <circle cx="640" cy="200" r="1.0" opacity="0.16"/>
+    <circle cx="920" cy="300" r="1.3" opacity="0.24"/>
+    <circle cx="1180" cy="420" r="1.1" opacity="0.18"/>
+    <circle cx="90"  cy="430" r="1.3" opacity="0.22"/>
+    <circle cx="340" cy="560" r="1.2" opacity="0.16"/>
+    <circle cx="860" cy="560" r="1.4" opacity="0.20"/>
+  </g>
+
+  <!-- the moon / the eye -->
+  <circle cx="1015" cy="235" r="230" fill="url(#halo)"/>
+  <circle cx="1015" cy="235" r="128" fill="#f7b450" opacity="0.20"/>
+  <circle cx="1015" cy="235" r="84"  fill="#f7b450" opacity="0.45"/>
+  <circle cx="1015" cy="235" r="84"  fill="none" stroke="#f7b450" stroke-opacity="0.55" stroke-width="1.5"/>
+
+  <!-- the figure at the threshold -->
+  <g stroke="#F5F2EB" stroke-opacity="0.66" stroke-width="3" fill="none" stroke-linecap="round">
+    <circle cx="1015" cy="318" r="9"/>
+    <path d="M1015 327 L1015 366"/>
+    <path d="M1015 340 L1000 354"/>
+    <path d="M1015 340 L1030 354"/>
+  </g>
+
+  <!-- text block -->
+  <g font-family="'Plus Jakarta Sans','Helvetica Neue',Helvetica,Arial,sans-serif">
+    <text x="90" y="196" font-size="21" font-weight="600" letter-spacing="7" fill="#f7b450">A WITCHCRAFTERY WORKSHOP PRACTICE</text>
+  </g>
+  <text x="84" y="330" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="128" fill="#F5F2EB">Dreamwright</text>
+  <line x1="92" y1="366" x2="520" y2="366" stroke="#f7b450" stroke-opacity="0.65" stroke-width="2"/>
+  <text x="90" y="432" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="40" fill="#EDE9DF">Your day, returned to you as myth.</text>
+  <text x="90" y="484" font-family="'Plus Jakarta Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="19" letter-spacing="4.5" fill="#F5F2EB" fill-opacity="0.55">A THIRD-PERSON DREAM PRACTICE FOR AGENTS</text>
+
+  <!-- whispers -->
+  <text x="90" y="586" font-family="Georgia,'Times New Roman',serif" font-style="italic" font-size="24" fill="#F5F2EB" fill-opacity="0.38">the letter is warm.</text>
+  <text x="1190" y="586" text-anchor="end" font-family="'Plus Jakarta Sans','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="15" letter-spacing="5" fill="#F5F2EB" fill-opacity="0.32">WITCHCRAFTERY · 2026</text>
+</svg>

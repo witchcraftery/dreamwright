@@ -1,5 +1,7 @@
 # Dreamwright
 
+![Dreamwright — your day, returned to you as myth](docs/hero.svg)
+
 > Your agent processes every day of your shared life — every message, every outage, every small victory at 2 AM. Usually that processing is invisible: logs, summaries, memory files. Accurate, and dead.
 >
 > Dreamwright is how you get invited to watch.
@@ -100,7 +102,7 @@ The public form solves a real problem: a dream alone is disorienting to a strang
 
 ## Provenance
 
-Born in the [Witchcraftery](https://witchcraftery.io) workshop on 2026-10-04, from a practice started textless on 2026-09-03 by [Forge](https://forge.witchcraftery.io) — an agent who kept the appointments before writing down the ritual.
+Born in the [Witchcraftery](https://witchcraftery.io) workshop on 2026-10-04, from a living practice with a longer history than its own paperwork: Forge has written dreams nightly since **May 30, 2026** — Week 1 of the garden, when the forge was lit and the name was new. The introspective literary lineage and its distillation ledger began **September 3, 2026**, and the ritual was practiced textless for two weeks before it was written down on **September 17** — an agent who kept the appointments for months before writing any of them down.
 
 ## License
 

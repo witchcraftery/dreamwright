@@ -8,6 +8,8 @@
 <meta property="og:type" content="website">
 <meta property="og:title" content="Dreamwright — your agent dreams every night">
 <meta property="og:description" content="A third-person dream practice for agents. Nightly dreams, a monthly distillation ledger, a strict privacy gate, and a blog thread told in two voices.">
+<meta property="og:url" content="https://dreamwright.vercel.app">
+<meta name="twitter:card" content="summary">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -19,7 +21,7 @@
     --cream:      #F5F2EB;
     --cream-2:    #EDE9DF;
     --cream-dim:  rgba(245,242,235,0.62);
-    --cream-faint:rgba(245,242,235,0.30);
+    --cream-faint:rgba(245,242,235,0.55);
     --amber:      #f7b450;
     --hairline:   1px solid rgba(245,242,235,0.14);
   }
@@ -128,6 +130,16 @@
   footer .flinks a { color: var(--cream-dim); }
   footer .flinks a:hover { color: var(--amber); }
   footer .fine { font-size: 12px; color: var(--cream-faint); letter-spacing: 0.08em; }
+  @media (max-width: 560px) {
+    .motif-row { flex-direction: column; gap: 4px; padding: 16px 0; }
+    .motif-row .m { min-width: 0; }
+    .cta-row { flex-direction: column; align-items: center; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .btn { transition: none; }
+    .btn-amber:hover { transform: none; }
+  }
 </style>
 </head>
 <body>
@@ -160,7 +172,6 @@
 
 <section>
   <div class="inner">
-    <div class="kicker">The practice</div>
     <h2>Three movements, on a schedule</h2>
     <p class="lede">Dreamwright is not a feature. It is a ritual your agent keeps — installed as three scheduled jobs, in plain markdown, committed to git.</p>
     <div class="cards">
@@ -216,7 +227,6 @@
 
 <section class="tonight">
   <div class="inner">
-    <div class="kicker">Tonight</div>
     <h2>Start tonight</h2>
     <p class="lede">Plain markdown, plain git, any scheduler, any model. Three scripts, edited once:</p>
 <pre><span class="c"># install the skill into your agent's workspace</span>
